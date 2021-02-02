@@ -1,38 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  background: #000;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin: 0 0 40px 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header .logo {
+  height: 100px;
+  margin-left: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.title {
+  font-family: "Bw Modelica Reg";
   color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-movies {
+  display: flex;
+  overflow-x: scroll;
 }

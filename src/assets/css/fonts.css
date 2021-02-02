@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Bw Modelica Bold";
+  src: url("../fonts/BwModelica-Bold.eot");
+  src: url("../fonts/BwModelica-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BwModelica-Bold.woff2") format("woff2"),
+    url("../fonts/BwModelica-Bold.woff") format("woff"),
+    url("../fonts/BwModelica-Bold.ttf") format("truetype"),
+    url("../fonts/BwModelica-Bold.svg#BwModelica-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica Reg";
+  src: url("../fonts/BwModelica-Regular.eot");
+  src: url("../fonts/BwModelica-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BwModelica-Regular.woff2") format("woff2"),
+    url("../fonts/BwModelica-Regular.woff") format("woff"),
+    url("../fonts/BwModelica-Regular.ttf") format("truetype"),
+    url("../fonts/BwModelica-Regular.svg#BwModelica-Regular") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica Med";
+  src: url("../fonts/BwModelica-Medium.eot");
+  src: url("../fonts/BwModelica-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BwModelica-Medium.woff2") format("woff2"),
+    url("../fonts/BwModelica-Medium.woff") format("woff"),
+    url("../fonts/BwModelica-Medium.ttf") format("truetype"),
+    url("../fonts/BwModelica-Medium.svg#BwModelica-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica Bold1";
+  src: url("../fonts/BwModelica-Bold_1.eot");
+  src: url("../fonts/BwModelica-Bold_1.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BwModelica-Bold_1.woff2") format("woff2"),
+    url("../fonts/BwModelica-Bold_1.woff") format("woff"),
+    url("../fonts/BwModelica-Bold_1.ttf") format("truetype"),
+    url("../fonts/BwModelica-Bold_1.svg#BwModelica-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
