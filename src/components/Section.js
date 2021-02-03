@@ -1,20 +1,14 @@
-import movies from "../data/movies.json";
-
-const Section = () => {
+const Section = ({ category, images, index }) => {
   return (
     <>
-      {movies.map((movie, index) => {
-        return (
-          <div className="container">
-            <span className="title">{movie.category}</span>;
-            <div className="list-movies" key={index}>
-              {movie.images.map((img, index) => {
-                return <img src={img} alt="" key={index} />;
-              })}
-            </div>
-          </div>
-        );
-      })}
+      <div className="container">
+        <span className="title">{category}</span>;
+        <div className="list-movies" key={index}>
+          {images.map((img, index) => {
+            return <img src={img} alt="" key={index} />;
+          })}
+        </div>
+      </div>
     </>
   );
 };

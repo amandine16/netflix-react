@@ -27,3 +27,6 @@
   overflow-x: scroll;
   margin-top: 20px;
 }
+.list-movies::-webkit-scrollbar {
+  display: none;
+}
