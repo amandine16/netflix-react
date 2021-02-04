@@ -1,3 +1,3 @@
 # Netflix-React
 
-![Screenshot](src/assets/img/gif-netflix-react.gif)
+![Screenshot](src/assets/img/1mo.gif)
